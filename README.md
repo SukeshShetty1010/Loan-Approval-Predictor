@@ -13,7 +13,7 @@ Welcome to the Loan Approval Predictor project repository! This repository conta
 - [8. Converting Categorical Columns](#8-converting-categorical-columns)
 - [9. Creating Train and Test Datasets](#9-creating-train-and-test-datasets)
 - [10. Model Selection](#10-model-selection)
-- - [11. Models Overview](#11-models-overview)
+- [11. Models Overview](#11-models-overview)
 - [12. Models Comparison](#12-models-comparison)
 - [13. Hyperparameter Tuning](#13-hyperparameter-tuning)
 - [14. Results of Model After Hyperparameter Tuning](#14-results-of-model-after-hyperparameter-tuning)
