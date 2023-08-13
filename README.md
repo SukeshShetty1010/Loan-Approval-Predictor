@@ -5,7 +5,7 @@ Welcome to the Loan Approval Predictor project repository! This repository conta
 ## Table of Contents
 - [1. Problem Definition](#1-problem-definition)
 - [2. Data](#2-data)
-- - [3. Features](#3-features)
+- [3. Features](#3-features)
 - [4. Importing Necessary Libraries](#4-importing-necessary-libraries)
 - [5. Load Data](#5-load-data)
 - [6. Iterating Over the Data](#6-iterating-over-the-data)
