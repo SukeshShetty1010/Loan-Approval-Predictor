@@ -1,6 +1,6 @@
 # Loan Approval Predictor
 
-Welcome to the Loan Approval Predictor project repository! This repository contains a Jupyter Notebook (.ipynb) that demonstrates how to build a machine learning model to predict whether a loan application will be approved or not. The project utilizes a Kaggle dataset and explores various machine learning algorithms for accurate predictions.
+Welcome to the Loan Approval Predictor project repository! This repository contains a Jupyter Notebook (.ipynb) that demonstrates how to build a machine-learning model to predict whether a loan application will be approved or not. The project utilizes a Kaggle dataset and explores various machine-learning algorithms for accurate predictions.
 
 ## Table of Contents
 - [1. Problem Definition](#1-problem-definition)
@@ -64,7 +64,7 @@ Multiple visualizations are created to provide insights into various relationshi
 
 ## 8. Converting Categorical Columns
 
-Categorical columns are converted into numerical format using label encoding.
+Categorical columns are converted into a numerical format using label encoding.
 
 ## 9. Creating Train and Test Datasets
 
@@ -109,7 +109,7 @@ A conclusion section analyzes the results, discussing the performance of each mo
 
 ## 16. Saving the Model
 
-The best model (LightGBM) is saved using pickle and stored in a Google Drive folder.
+The best model (LightGBM) is saved using Pickle and stored in a Google Drive folder.
 
 ## 17. Load the Model
 
@@ -124,6 +124,6 @@ To make the project more efficient:
 - Optimize memory usage by downsizing data types where applicable.
 - Parallelize certain operations to speed up computations.
 
-Feel free to explore the notebook and learn how to build a loan approval prediction model using various machine learning algorithms. For any questions or suggestions, please feel free to contact the repository owner.
+Feel free to explore the notebook and learn how to build a loan approval prediction model using various machine-learning algorithms. For any questions or suggestions, please feel free to contact the repository owner.
 
 Enjoy learning and experimenting with machine learning!
