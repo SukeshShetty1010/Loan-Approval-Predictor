@@ -30,6 +30,32 @@ Financial institutions face massive challenges in processing loan applications e
 | **Machine Learning** | Scikit-Learn, XGBoost, LightGBM |
 | **Environment** | Jupyter Notebook, Google Colab |
 
+## 📊 Performance Metrics
+
+The project evaluates five distinct algorithms to ensure the highest predictive reliability. Below is a comparison of their baseline and optimized performance.
+
+### Baseline Model Comparison
+| Model | Accuracy (Baseline) | Training Time |
+| :--- | :--- | :--- |
+| **LightGBM** | **98.24%** | 0.1425s |
+| XGBoost | 98.13% | 0.2920s |
+| Gradient Boosting | 97.78% | 0.6062s |
+| Random Forest | 97.66% | 0.4171s |
+| Logistic Regression | 62.88% | 0.0375s |
+
+### Hyperparameter Optimization (RandomizedSearchCV)
+After extensive tuning, **LightGBM** emerged as the champion, balancing peak accuracy with unmatched computational efficiency.
+
+| Model | Optimized Accuracy | Tuning Time | Key Parameters |
+| :--- | :--- | :--- | :--- |
+| **LightGBM** | **98.48%** | ~8s | `num_leaves: 25`, `max_depth: 10`, `lr: 0.1` |
+| Gradient Boosting | 98.45% | ~782s | `n_estimators: 305`, `max_depth: 7` |
+| XGBoost | 98.36% | ~220s | `n_estimators: 600`, `max_depth: 10` |
+| Random Forest | 97.72% | ~21s | `n_estimators: 300`, `max_depth: 30` |
+
+> [!TIP]
+> **LightGBM** achieved the highest accuracy while being **97x faster** to tune than Gradient Boosting, making it the ideal choice for production-scale loan approval systems.
+
 ## 📐 Architecture
 
 The following diagram illustrates the data flow and model development lifecycle:
